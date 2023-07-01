@@ -47,7 +47,7 @@ class UserTest extends TestCase
 
   /**
    * This is to test login authentication.
-   * 
+   *
    * Expectation is to redirect home after login.
    * @return void
    */
@@ -65,7 +65,7 @@ class UserTest extends TestCase
 
   /**
    * This is to test user registration.
-   * 
+   *
    * Expectation is to redirect to registration confirm.
    * @return void
    */
