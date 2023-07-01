@@ -34,7 +34,9 @@ jobs:
       - run: sudo rm -rf /var/lib/apt/lists/*
       - run: sudo docker-php-ext-install zip
       - run: sudo docker-php-ext-configure gd --with-jpeg-dir=/usr/lib/x86_64-linux-gnu/
-      - run: sudo docker-php-ext-install pdo pdo_mysql gd mbstring zip
+      - run: sudo docker-php-ext-install gd mbstring zip
+      - run: sudo docker-php-ext-install mysqli pdo pdo_mysql
+      - run: sudo docker-php-ext-enable pdo_mysql
       - run: sudo composer self-update
 
       # Download and cache dependencies
