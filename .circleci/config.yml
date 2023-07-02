@@ -86,7 +86,7 @@ jobs:
       - image: docker:18.06.1-ce-git
         environment:
           DOCKER_IMAGE: php-fpm
-          APP: laravel-vue
+          APP: laravel-vue-app
           AWS_REGION: us-east-1
     working_directory: ~/laravel-vue-circleci-aws-eb
     steps:
