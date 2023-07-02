@@ -1,8 +1,8 @@
 branch-defaults:
   develop:
-    environment: LaravelVueCircleci-env
+    environment: Laravel-vue-circleci-env
   master:
-    environment: LaravelVueCircleci-env
+    environment: Laravel-vue-circleci-env
 global:
   application_name: laravel-vue-circleci
   branch: null
