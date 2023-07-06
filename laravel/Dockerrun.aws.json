@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-      "Name": "278313392460.dkr.ecr.us-east-1.amazonaws.com/laravel-vue-app:fca3bef"
+      "Name": "public.ecr.aws/i4c7h9q2/laravel-vue-app-public"
     },
     "Ports": [
       {
